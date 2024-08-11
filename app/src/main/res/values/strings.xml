@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BaseDeDatos</string>
+    <string name="btnCrearDB">Crear Base De Datos</string>
+    <string name="nombre">Titulo</string>
+    <string name="telefono">Calificacion</string>
+    <string name="correo">Cap. favorito</string>
+    <string name="insertar">Agregar items a la lista</string>
+    <string name="mostrar_registros">Mostrar lista</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_telefono">Telefono:</string>
+    <string name="hint_correo_electronico">Correo electronico:</string>
+    <string name="btn_guarda">Guardar registro</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+    <string name="imagen">Boton</string>
+    <string name="salir">Salir</string>
+
+    <string name="identificador">User name</string>
+    <string name="password">Password</string>
+    <string name="login">LOG IN</string>
+    <string name="noaccount">No account?</string>
+    <string name="creataccount">Creat New</string>
+    <string name="contact">Mobile number/Email </string>
+    <string name="name">Full name</string>
+    <string name="priv">By signing up, you agree to our Terms , Privacy Policy and Cookies Policy.</string>
+    <string name="posts">Posts</string>
+    <string name="likes">Likes</string>
+    <string name="tierlist">Tier List</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="toptier">Top Tier</string>
+    <string name="parati">For You</string>
+    <string name="follows">Follows</string>
+    <string name="back">Back</string>
+    <string name="trailer">Ver trailer</string>
+</resources>

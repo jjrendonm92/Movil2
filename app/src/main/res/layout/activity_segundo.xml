@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#4b0081"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegundoActivity">
+
+    <!-- RECUADRO DE ADENTRO -->
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="246dp"
+        android:layout_height="314dp"
+        android:background="#00004f"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <!-- MOBILE NUMBER/EMAIL -->
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E5E4E2"
+        android:ems="10"
+        android:hint="@string/contact"
+        android:inputType="text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+        app:layout_constraintBottom_toTopOf="@+id/editTextText3"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        />
+
+    <!-- FULL NAME -->
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E5E4E2"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+        app:layout_constraintBottom_toTopOf="@+id/editTextText4"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+        />
+
+    <!-- USER NAME -->
+
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E5E4E2"
+        android:ems="10"
+        android:hint="@string/identificador"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+
+    <!-- PASSWORD -->
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E5E4E2"
+        android:ems="10"
+        android:hint="@string/password"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText4"
+        />
+
+    <!-- PRIV -->
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="170dp"
+        android:layout_height="52dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColorHint="#E5E4E2"
+        android:textStyle="italic"
+        android:hint="@string/priv"
+
+
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+    <!-- CREATE ACCOUNT -->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="187dp"
+        android:layout_height="36dp"
+        android:onClick="Login"
+        android:textColorHint="#ffff"
+        android:hint="@string/login"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
